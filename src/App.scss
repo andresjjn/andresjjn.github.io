@@ -25,6 +25,10 @@
 }
 
 .App-header {
+  background-image: url(./images/QRCode.jpeg);
+  background-repeat:no-repeat;
+  background-position: 50% 45% ;
+  background-size: 42vmin;
   background-color: #000000;
   min-height: 100vh;
   display: flex;
@@ -50,7 +54,8 @@
 }
 
 .contact {
-  color: whitesmoke
+  color: black;
+  text-decoration: none;
 }
 
 .logo {
@@ -144,3 +149,31 @@ a.instagram {
 a.whatsapp {
   color: #25D366;
 }
+
+
+.myButton {
+	box-shadow:inset 0px 18px 0px -2px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:42px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:5px 41px;
+	text-decoration:none;
+	text-shadow:0px -1px 14px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
