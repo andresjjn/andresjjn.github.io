@@ -16,6 +16,7 @@ function App() {
               <img src={qr} alt="Scan or click" className="qr-image"/>
             </a> */}
         {/* <img src={coming} alt="Coming soon..." className="coming"/> */}
+        <a className='contact' href='https://forms.gle/baZy2b2RmtWaXo4ZA'> Contact us </a>
       </header>
     </div>
   );
