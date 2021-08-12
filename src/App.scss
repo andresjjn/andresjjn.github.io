@@ -89,10 +89,10 @@
   }
 } 
 .blink-image {
-  -moz-animation: blink normal 15s infinite ease-in-out; /* Firefox */
-  -webkit-animation: blink normal 15s infinite ease-in-out; /* Webkit */
-  -ms-animation: blink normal 15s infinite ease-in-out; /* IE */
-  animation: blink normal 15s infinite ease-in-out; /* Opera and prob css3 final iteration */
+  -moz-animation: blink normal 20s infinite ease-in-out; /* Firefox */
+  -webkit-animation: blink normal 20s infinite ease-in-out; /* Webkit */
+  -ms-animation: blink normal 20s infinite ease-in-out; /* IE */
+  animation: blink normal 20s infinite ease-in-out; /* Opera and prob css3 final iteration */
   height: 70vmin;
 }
 
